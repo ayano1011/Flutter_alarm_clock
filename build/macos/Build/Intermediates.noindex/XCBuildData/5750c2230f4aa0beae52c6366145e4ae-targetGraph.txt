@@ -1,0 +1,28 @@
+Target dependency graph (8 targets)
+FlutterMacOS in Pods, no dependencies
+flutter_app_badger in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+flutter_local_notifications in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+flutter_native_timezone in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+path_provider_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+Flutter Assemble in Runner, depends on:
+flutter_app_badger in Pods (implicit dependency via options '-framework flutter_app_badger' in build setting 'OTHER_LDFLAGS')
+flutter_local_notifications in Pods (implicit dependency via options '-framework flutter_local_notifications' in build setting 'OTHER_LDFLAGS')
+flutter_native_timezone in Pods (implicit dependency via options '-framework flutter_native_timezone' in build setting 'OTHER_LDFLAGS')
+path_provider_macos in Pods (implicit dependency via options '-framework path_provider_macos' in build setting 'OTHER_LDFLAGS')
+Pods-Runner in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+flutter_app_badger in Pods (explicit)
+flutter_local_notifications in Pods (explicit)
+flutter_native_timezone in Pods (explicit)
+path_provider_macos in Pods (explicit)
+Runner in Runner, depends on:
+Flutter Assemble in Runner (explicit)
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary')
+flutter_app_badger in Pods (implicit dependency via options '-framework flutter_app_badger' in build setting 'OTHER_LDFLAGS')
+flutter_local_notifications in Pods (implicit dependency via options '-framework flutter_local_notifications' in build setting 'OTHER_LDFLAGS')
+flutter_native_timezone in Pods (implicit dependency via options '-framework flutter_native_timezone' in build setting 'OTHER_LDFLAGS')
+path_provider_macos in Pods (implicit dependency via options '-framework path_provider_macos' in build setting 'OTHER_LDFLAGS')
